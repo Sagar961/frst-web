@@ -16,7 +16,7 @@ pipeline {
 
                 docker run -d \
                 --name my-web-container \
-                -p 8080:80 \
+                -p 8082:80 \
                 my-web-app:v1
                 '''
             }
